@@ -2,8 +2,6 @@
 
 🎯 Aplicación de consola en Java para el operador de Domi. Gestiona clientes, repartidores y pedidos, y decide sola qué repartidor lleva cada pedido: elige el de **menor costo** 💰 y, si hay empate, el **más rápido** ⚡. Los datos viven en memoria mientras el programa está abierto.
 
-Incluye todos los niveles: 🟢 Base, 🟡 Corazón, 🔴 Operación real (calificaciones, modo lluvia y cierre del día) y 🐉 Jefe final (dron). Como extra ⭐, la opción 14 muestra el historial de pedidos de un cliente.
-
 ## 🚀 Cómo ejecutar el proyecto en IntelliJ
 
 1. 📥 Clonar el repositorio: `git clone <URL-del-repo>`
