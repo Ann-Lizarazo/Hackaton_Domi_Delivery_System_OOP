@@ -15,9 +15,9 @@
 
 | Paquete | Contenido | Responsabilidad |
 |---|---|---|
-| 📦 `modelo` | `Cliente`, `Repartidor` (abstracta), `Bici`, `Moto`, `Carro`, `Dron`, `FabricaRepartidores`, `Pedido`, interfaz `Calificable` | Representar el negocio. Cada clase se valida a sí misma |
-| 📦 `servicio` | `DomiService`, `Cotizacion`, `ReporteCierre` | Guardar las colecciones y aplicar las reglas. No lee del teclado ni imprime menús |
-| 📦 `app` | `Main` | Mostrar el menú, leer lo que escribe el operador y mostrar resultados |
+| `modelo` | `Cliente`, `Repartidor` (abstracta), `Bici`, `Moto`, `Carro`, `Dron`, `FabricaRepartidores`, `Pedido`, interfaz `Calificable` | Representar el negocio. Cada clase se valida a sí misma |
+| `servicio` | `DomiService`, `Cotizacion`, `ReporteCierre` | Guardar las colecciones y aplicar las reglas. No lee del teclado ni imprime menús |
+| `app` | `Main` | Mostrar el menú, leer lo que escribe el operador y mostrar resultados |
 
 💡 Principio que seguí: **Main pregunta y muestra, el servicio decide, el modelo se valida a sí mismo.**
 
